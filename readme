@@ -1,0 +1,23 @@
+
+这是一个学习fastapi和react前后端交互的demo
+
+学习主要参考了博客：https://testdriven.io/blog/fastapi-react/
+
+技术栈：
+后端：fastapi
+前端：react
+    并且用到了Chakra UI组件库
+
+一些重要配置config：
+   下载Chakra UI组件库：
+     $ npm install @chakra-ui/react@2.0.2
+     $ npm install @emotion/react@11.9.0 @emotion/styled@11.8.1 emotion-theming@11.0.0
+   端口（代码默认）：
+     前端：3000
+     后端：8001
+
+fastapi_react_TodosDemo
+    |__backend：后端fastapi代码
+    |__frontend：前端react代码
+    |__docs：项目笔记
+    |__readme.txt
